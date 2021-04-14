@@ -1,9 +1,10 @@
-# 1. Warm up
+# 1. Radam
 
+## Warmup
 Optimizers using the adaptive learning rate have a fast convergence speed, but have a disadvantage that the gradient distribution is distorted during initial learning and falls into the local optimization.
 So, to overcome this limitation, using method called warm up that sets the initial learning rate small.
 
-# 2. Radam
+## In Radam
 
 The author argues that when calculating the adaptive learning rate at the initial stage of learning, the variance diverges because the sample is small, and this causes the value to be multiplied by the learning rate to increase without limit, leading to the local optima of learning.
 
@@ -15,7 +16,7 @@ And, author shows that Radam is more robust than adam by experiment.
 <img src="./Assignment_6_figs/Radam_1.png"> 
 <img src="./Assignment_6_figs/Radam_3.png"> 
 
-# 3. Adamw
+# 2. Adamw
 
 The author says that adam optimizer show great performance in many domain but in computer vision task, generalization is inferior to SGD including momentum.
 
