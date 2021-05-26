@@ -1,6 +1,6 @@
 # What kind of application can be possible using GAN in medical domai
 
-Qi Chang.et.al[[pdf]](https://arxiv.org/abs/2006.00080) propose learn medical image data without sharing using gan.
+Qi Chang.et.al[[pdf]](https://arxiv.org/abs/2006.00080) propose learning medical image data without sharing using gan.
 
 The authors show that proposed method shows acceptable performance without sharing data.
 
